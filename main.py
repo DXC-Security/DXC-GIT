@@ -29,14 +29,15 @@ parser.add_argument("-csc", "--csc", help="scan for csc assets",
                     action="store_true")
 parser.add_argument("-hpe", "--hpe", help="scan for hpe assets",
                     action="store_true")
+parser.add_argument("-io", "--io", help="scan for dxcdigital.io assets",
+                     action="store_true")
 parser.add_argument("-full", "--full", help="scan for all assets",
                     action="store_true")
-parser.add_argument("-io", "--io", help="scan dxcdigital.io",
-                     action="store_true")
+
 args = parser.parse_args()
 
 # to search through all public repos, we must first authenticate to github
-github_key = input("Enter GitHub Token:\n") 
+github_key = input(" Enter GitHub access token: ")
 
 time.sleep(5)
 
