@@ -15,7 +15,8 @@ pip3 install -r requirements.txt
 python main.py -h  -- help  
 python main.py -dxc, --dxc  -- scan for dxc assets  
 python main.py -csc, --csc  -- scan for csc assets   
-python main.py -hpe, --hpe  -- scan for hpe assets   
+python main.py -hpe, --hpe  -- scan for hpe assets
+python main.py -io, --io  -- scan for dxcdigital.io assets
 python main.py -full, --full  -- scan for all assets   
 ```
 <hr>
